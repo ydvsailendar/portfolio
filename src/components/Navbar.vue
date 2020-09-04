@@ -9,7 +9,7 @@
       router
       to="/"
     >
-      <v-icon left>mdi-account</v-icon>About</v-btn
+      <v-icon left>mdi-account-box</v-icon>PROFILE</v-btn
     >
     <v-btn
       router
@@ -20,7 +20,7 @@
       text
       color="accent"
     >
-      <v-icon left>mdi-folder</v-icon>Projects</v-btn
+      <v-icon left>mdi-source-repository</v-icon>HAVE DONE</v-btn
     ><v-btn
       router
       to="/skills"
@@ -30,8 +30,20 @@
       text
       color="accent"
     >
-      <v-icon left>mdi-star</v-icon>Skills</v-btn
-    ><v-btn
+      <v-icon left>mdi-marker-check</v-icon>CAN DO</v-btn
+    >
+    <v-btn
+      router
+      to="/extras"
+      retain-focus-on-click
+      outlined
+      tile
+      text
+      color="accent"
+    >
+      <v-icon left>mdi-alpha-f-box</v-icon>FUN STUFFS</v-btn
+    >
+    <v-btn
       router
       to="/contact"
       retain-focus-on-click
@@ -40,7 +52,7 @@
       text
       color="accent"
     >
-      <v-icon left>mdi-play</v-icon>Reach Out</v-btn
+      <v-icon left>mdi-account-search</v-icon>Know & Find</v-btn
     >
   </div>
 </template>

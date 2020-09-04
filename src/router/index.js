@@ -22,9 +22,13 @@ const routes = [
   },
   {
     path: "/contact",
-    name: "Reach Out",
-
+    name: "Contact",
     component: () => import("../views/Contact"),
+  },
+  {
+    path: "/extras",
+    name: "Fun Stuffs",
+    component: () => import("../views/Extras"),
   },
 ];
 
